@@ -1,4 +1,167 @@
 body{
 	padding: 0;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+
+
+.container{
+	max-width: 1250px;
+	width: 100%;
+	margin: auto;
+}
+
+.hero_content h1{
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 130%;
+	letter-spacing: -0.02em;
+	color: #575757;
+}
+.hero_content h1 span{
+	color: #FB8B47;
+}
+.colro1{
+	color: #FB8B47;
+}
+.colro2 {
+    color: green !important;
+}
+span{
+	color: blue;
+}
+
+
+.hero_image {
+    width: 50%;
+    float: left;
+}
+.hero_content {
+    width: 50%;
+    float: left;
+}
+.hero_section {
+    background: #FFF;
+    padding-top: 191px;
+    padding-bottom: 52px;
+}
+.hero_content p{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 160%;
+	letter-spacing: -0.02em;
+	color: #828282;
+	padding-top: 40px;
+	padding-bottom: 49px;
+}
+.hero_content a {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 22px 43px;
+    font-family: 'Poppins', sans-serif;
 }
