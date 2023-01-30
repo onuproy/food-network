@@ -102,9 +102,6 @@ img{
   vertical-align: middle;
 }
 
-
-
-
 .container{
 	max-width: 1250px;
 	width: 100%;
@@ -144,6 +141,7 @@ span{
     background: #FFF;
     padding-top: 191px;
     padding-bottom: 52px;
+    overflow: hidden;
 }
 .hero_content p{
 	font-weight: 500;
@@ -154,7 +152,7 @@ span{
 	padding-top: 40px;
 	padding-bottom: 49px;
 }
-.hero_content a {
+.btn_style a {
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 100px;
@@ -164,4 +162,75 @@ span{
     color: #FFFFFF;
     padding: 22px 43px;
     font-family: 'Poppins', sans-serif;
+    transition: 0.6s;
+}
+.btn_style a:hover{
+    background: linear-gradient(88.33deg, #FF1E1E -7.64%, #FBA24F 145.94%);
+    transition: 0.6s;
+    color: #000;
+}
+
+
+/*About Secion Css */
+
+.about_section{
+  padding-top: 64px;
+  background: rgba(252, 143, 73, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+.about_image{
+  width: 50%;
+  float: left;
+}
+.about_content{
+  width: 50%;
+  float: left;
+}
+.about_content h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  color: #707070;
+  padding-bottom: 32px;
+}
+.about_content p{
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;
+  padding-bottom: 90px;
+}
+
+.about_section:after {
+    position: absolute;
+    content: " ";
+    width: 200px;
+    height: 100px;
+    background: url('../image/Half_s.png');
+    background-repeat: no-repeat;
+    top: 50px;
+    right: -45px;
+    background-size: cover;
+}
+/*.about_section:before {
+    position: absolute;
+    content: " ";
+    width: 150px;
+    height: 150px;
+    background: url('../image/dot_vactor.png');
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    background-size: 100% 100%;
+}*/
+.left_vactor_image {
+    position: absolute;
+    left: 0;
+    bottom: 48px;
+}
+
+.left_vactor_image_2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
