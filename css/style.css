@@ -240,7 +240,7 @@ span{
 section.my_recipies_section {
     background: #FFFFFF;
     padding-top: 72px;
-    padding-bottom: 129px;
+    padding-bottom: 65px;
     overflow: hidden;
 }
 .my_recipies_top_text {
@@ -304,5 +304,84 @@ section.my_recipies_section {
 }
 .card_item_content:hover h2{
   color: blue;
+  transition: 0.5s;
+}
+
+/*Happy Client section css */
+section.happy_content_section {
+    background: #FFF;
+    overflow: hidden;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+.happy_content_area {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 64px 100px;
+    overflow: hidden;
+}
+.happy_single_item {
+    max-width: 33.33%;
+    float: left;
+    width: 100%;
+}
+.happy_content {
+    max-width: 200px;
+    margin: auto;
+}
+.happy_content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+    padding-bottom: 8px;
+}
+.happy_content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
+footer.footer_area {
+    background: #0B0D17;
+    padding-top: 32px;
+    padding-bottom: 57px;
+}
+.footer_content {
+    text-align: center;
+}
+.footer_content img {
+    padding-bottom: 37px;
+}
+.footer_content p{
+  color: #FFF;
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.socil_icon{}
+.socil_icon ul{}
+.socil_icon ul li {
+    display: inline;
+}
+.socil_icon ul li a {
+    display: inline-block;
+    color: #FFF;
+    font-size: 22px;
+    background: gray;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socil_icon ul li a:hover{
+  color: #FF1E1E;
+  background: #FFF4ED;
   transition: 0.5s;
 }
